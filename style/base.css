@@ -132,7 +132,7 @@ body{
 .auther_dets {
     font-size: 18px;
     font-weight: 500;
-    color: rgb(117 118 121);
+    color: rgb(106, 107, 110);
     text-align: center;
     line-height: 120%;
 }
@@ -141,14 +141,65 @@ body{
     text-transform: uppercase;
     line-height: 105%;
     .highlight{
-        color: rgb(54 51 52);
+        color: #363334;
     }
 }
 .details .detls {
-    color: #998f8f;
+    color: #707070;
     font-size: 18px;
     font-weight: 400;
     max-width: 480px;
     line-height: 135%;
     padding-top: 10px;
+}
+.works_experience{
+    display: flex;
+    gap: 40px;
+    padding-top: 60px;
+    .num {
+        font-size: 70px;
+        font-weight: 600;
+        color: white;
+        line-height: 120%;
+    }
+    div{
+        color: #707070;
+        text-transform: uppercase;
+        line-height: 116%;
+        font-size: 16px;
+    }
+}
+.recent_works{
+    padding-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  Footer Styling  */
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding-block: 140px 80px;
+    color: var(--text-color);
+    font-weight: 200;
+    letter-spacing: 1px;
+    .highlight{ 
+        color: rgb(253, 53, 46);
+        font-weight: 500;
+    }
 }
